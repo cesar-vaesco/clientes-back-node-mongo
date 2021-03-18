@@ -5,7 +5,7 @@ const moongose = require('mongoose');
 
 const ProductosSchema = moongose.Schema({
 
-    producto:{
+    nombre:{
         type: String,
         require: true
     },
